@@ -1,8 +1,20 @@
-import React from 'react'
+import './Nosotros.css';
+import Columns from './section/Columns';
+import Info from './section/Info'
+import Team from './section/Cards';
+import Info2 from './section/info2';
+
+
 
 const Nosotros = () => {
   return (
-    <div>Nosotros</div>
+    <div>
+    <Info/>
+    <Columns/>
+    <Team/>
+    <Info2/>
+    </div>
+
   )
 }
 
