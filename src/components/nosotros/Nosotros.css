@@ -44,17 +44,17 @@ padding: 0 5%;
 }
 
 .column-3 {
-    border: 1px solid rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     font-size: 1.25rem;
     text-align: center;
     justify-content: center;
-    margin: 10px;
+    margin: 30px;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
-    width: 360px;
+    width: 1300px;
     color: #fff;
 }
 
@@ -129,8 +129,10 @@ padding: 0 5%;
 }
 
 .container > * {
-    margin-bottom: 5em; /* Puedes ajustar este valor según tus necesidades */
-  }
+    flex: 1 1 calc(33.33% - 20px); /* Ajusta según tus necesidades, teniendo en cuenta el espacio entre las tarjetas */
+    margin-bottom: 5em;
+    box-sizing: border-box;
+}
 
 .container .card {
     display: flex;
@@ -279,12 +281,10 @@ padding: 0 5%;
 /*cards*/
 
 @media (max-width: 768px) {
-    .card {
-        width: calc(50% - 20px);
-    }
+   
     
     .container .card .face {
-        width: 350px;
+        width: 370px;
         height: 250px;
         transition: 0.5s;
     }

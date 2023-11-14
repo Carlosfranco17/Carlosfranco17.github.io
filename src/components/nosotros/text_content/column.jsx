@@ -1,11 +1,10 @@
-
 const ColumnContent = [
   {
     title: 'Compromiso',
-    //icon: faHandshakeAngle,
-    text: `
+    intro: `
       En Gateway I.T, nos enorgullece estar comprometidos con el desarrollo sostenible y apoyamos los Objetivos de Desarrollo Sostenible (ODS) a través de nuestras soluciones tecnológicas. Nos esforzamos por mejorar no solo nuestros productos y servicios, sino también la región en la que operamos.
-
+    `,
+    text: `
       Nuestro trabajo no termina cuando entregamos un proyecto. Creemos que el éxito se logra a través de un buen despegue y una gestión continua.
 
       Por lo tanto, nos aseguramos de acompañar a nuestros clientes durante el lanzamiento de sus proyectos y soluciones tecnológicas, redirigiendo y aportando para que su estrategia se convierta en una solución exitosa que contribuya a la consecución de sus objetivos.
@@ -15,10 +14,10 @@ const ColumnContent = [
   },
   {
     title: 'Misión',
-    //icon: faBullseye,
-    text: `
+    intro: `
       Nuestra misión en Gateway I.T es diseñar e implementar proyectos de Investigación, Desarrollo e Innovación (i+D+i) y soluciones integrales que permitan optimizar los procesos de nuestros clientes y de la región en la que operamos.
-
+    `,
+    text: `
       Estamos comprometidos con el desarrollo sostenible y la mejora continua, por lo que nos esforzamos por brindar soluciones tecnológicas que garanticen el desarrollo y la prosperidad a largo plazo.
 
       En Gateway I.T, creemos que la clave del éxito radica en la colaboración y el trabajo en equipo. Por lo tanto, trabajamos de la mano con nuestros clientes para comprender sus necesidades específicas y brindar soluciones personalizadas que se adapten a sus objetivos y requisitos. Nuestro enfoque integral nos permite ofrecer soluciones completas que abordan no solo los aspectos tecnológicos, sino también los procesos, las personas y la cultura de la organización.
@@ -28,10 +27,10 @@ const ColumnContent = [
   },
   {
     title: 'Visión',
-    //icon: faEye,
-    text: `
+    intro: `
       En Gateway I.T, nuestra visión es convertirnos en el 2025 en una empresa y centro de desarrollo tecnológico líder reconocida a nivel nacional e internacional en la generación de soluciones y proyectos de ciencia, tecnología e innovación en Colombia.
-
+    `,
+    text: `
       Nos esforzamos por ser una empresa innovadora que siempre busca estar a la vanguardia de las tendencias tecnológicas y que está comprometida con la mejora continua.
 
       Nuestra visión es ser un líder en la generación de soluciones de alta calidad que aborden los desafíos más críticos de nuestros clientes y de la sociedad en general.
