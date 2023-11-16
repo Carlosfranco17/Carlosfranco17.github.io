@@ -22,7 +22,6 @@ section .column-c{
     background-position: center;
     background-color: #394de1;
     color: #fff;
-
     padding: 3%;
 }
 
@@ -83,12 +82,31 @@ padding: 0 5%;
     }
 
 /* */
+.section-1 {
+    /*background-image: linear-gradient(140deg,#131949 0%,rgba(41,17,96,0.8) 100%),url(./img/disenamos-a-tu-medida.png);*/
+    background: rgba(255, 255, 255, 0.2);
+    background-position: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-radius: 0em 5em 5em 0em;
+    margin: 20px 0;
+}
+.section-1 .text{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 2em 0 2em;
+}
+
 .section-2 {
-    background-image: linear-gradient(140deg,#131949 0%,rgba(41,17,96,0.8) 100%),url(./img/disenamos-a-tu-medida.png);
+    /*background-image: linear-gradient(140deg,#131949 0%,rgba(41,17,96,0.8) 100%),url(./img/disenamos-a-tu-medida.png);*/
+    background: rgba(255, 255, 255, 0.2);
     background-position: center;
     padding-top: 5em;
     padding-bottom: 5em;
     border-radius: 5em 0em 0em 5em;
+    margin: 20px 0;
 }
 
 .section-2 .text{
@@ -111,15 +129,13 @@ padding: 0 5%;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    
 }
 
 .section-3 .text p{
     padding: 2em 2em 2em 2em;
-    margin-bottom: 10em;
 }
 
-/*---------Cards------------*/
+/*---------Cards------------
 
 .container {
     display: flex;
@@ -129,7 +145,7 @@ padding: 0 5%;
 }
 
 .container > * {
-    flex: 1 1 calc(33.33% - 20px); /* Ajusta según tus necesidades, teniendo en cuenta el espacio entre las tarjetas */
+    flex: 1 1 calc(33.33% - 20px); 
     margin-bottom: 5em;
     box-sizing: border-box;
 }
@@ -181,8 +197,6 @@ padding: 0 5%;
 }
 
 .container .card .face.face1 .content h3 {
-    
-   
     color: #fff;
     font-size: 1.5em;
 }
@@ -254,8 +268,7 @@ padding: 0 5%;
     padding: 5px;
     border: 1px solid #333;
 }
-
-
+*/
 /*responsive*/
 /*columns*/
 
@@ -265,9 +278,6 @@ padding: 0 5%;
         padding: 20px;
         position: relative;
     } 
-    .column-3 {
-        padding: 0;
-    }
 }
 
 @media (max-width: 480px) {
@@ -281,8 +291,7 @@ padding: 0 5%;
 /*cards*/
 
 @media (max-width: 768px) {
-   
-    
+
     .container .card .face {
         width: 370px;
         height: 250px;
