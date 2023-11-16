@@ -6,4 +6,4 @@ const TrabajaConNosotros = () => {
   )
 }
 
-export default TrabajaConNosotros
+export default TrabajaConNosotros 
