@@ -64,7 +64,7 @@ const Navbar = () => {
                   <Link to="/trabajaconnosotros">Trabaja con nosotros</Link>
                 </li>
                 <li>
-                  <Link to="">Dream Box</Link>
+                  <Link to="https://dreambox.com.co/">Dream Box</Link>
                 </li>
               </ul>
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import './servicios.css'
+import CardServices from '../cardServices.jsx/CardServices'
+
 
 const Servicios = () => {
   return (
@@ -71,9 +73,16 @@ const Servicios = () => {
 </div>
 
 
+{/* service */}
 
 
+<section className='services'>
 
+  <div className='title-services'><h1 className='title-main'>servicios</h1></div>
+       
+    </section>
+
+<CardServices/>
 
     </div>
   )

@@ -412,3 +412,20 @@ footer h1{
 #credits a {
   color:#b297a2;
 }
+
+.title-services{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    
+
+}
+
+.title-main{
+    font-size: 50px;
+}
