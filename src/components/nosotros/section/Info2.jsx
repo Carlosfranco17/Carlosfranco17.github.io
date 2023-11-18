@@ -6,7 +6,7 @@ const Info2 = () => {
     return (
         <div>
             <div className="column-2">
-            <img src="../../../../public/img/Blue Porter's Five Forces Analysis Graph.png" alt="Graph" />
+            <img src="../img/Blue Porter's Five Forces Analysis Graph.png" alt="Graph" />
             </div>
             <div className="column-f">
                 <div className="title">
