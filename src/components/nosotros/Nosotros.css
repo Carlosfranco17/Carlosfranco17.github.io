@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15% 0 0 0;
+    /*background-image: url(../../../public/img/14547779_rm222-mind-14.jpg);*/
+    background-color: #131949;
 }
 
 
@@ -320,6 +322,7 @@ padding: 0 5%;
         flex-direction: column;
         padding: 0 0 5em 0;
         border-radius: 10em 0em 0em 10em;
+        margin:30px 0
     }
 }
 

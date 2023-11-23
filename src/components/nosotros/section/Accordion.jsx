@@ -1,16 +1,41 @@
-const Card = ({ className, href, iconname, title, description }) => (
-    <div className={`card ${className}`}>
-        <a href={href}>
-            <div className="card--display">
-                <i className="material-icons">{iconname}</i>
-                <h2>{title}</h2>
+import { useState } from 'react';
+import ColumnContent from '../text_content/column';
+import './accordion.css'; // Import the CSS file
+
+const Accordion = () => {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const handleToggle = (index) => {
+        setActiveIndex(index === activeIndex ? -1 : index);
+    };
+
+    return (
+        <div className="cont_accordion">
+            <div className="accordion-container">
+                {ColumnContent.map((content, index) => (
+                    <section key={index} className="accordion">
+                        <input
+                            type="checkbox"
+                            name={`collapse${index}`}
+                            id={`handle${index}`}
+                            checked={index === activeIndex}
+                            onChange={() => handleToggle(index)}
+                        />
+                        <h2 className="handle">
+                            <label htmlFor={`handle${index}`}>{content.title}</label>
+                        </h2>
+                        <div className="content">
+                            <p>{content.intro}</p>
+                            <p>{content.text}</p>
+                        </div>
+                    </section>
+                ))}
             </div>
-            <div className="card--hover">
-                <h2>{title}</h2>
-                <p>{description}</p>
-                <p className="link">Click to see project</p>
+            <div className="image-container">
+                <img src="../../../../public/img/disenamos-a-tu-medida.png" alt="" />
             </div>
-        </a>
-        <div className="card--border"></div>
-    </div>
-);
+        </div>
+    );
+};
+
+export default Accordion;

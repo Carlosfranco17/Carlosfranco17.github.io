@@ -1,17 +1,16 @@
 import './Nosotros.css';
-import Columns from './section/Columns';
 import Info from './section/Info'
-import Team from './section/Cards';
 import Info2 from './section/info2';
-
+import EquipoComponent from './section/Cards';
+import Accordion from './section/Accordion';
 
 
 const Nosotros = () => {
   return (
     <div>
     <Info/>
-    <Columns/>
-    <Team/>
+    <Accordion/>
+    <EquipoComponent/>
     <Info2/>
     </div>
 
