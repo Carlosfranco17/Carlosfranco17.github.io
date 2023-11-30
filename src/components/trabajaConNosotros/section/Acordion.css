@@ -1,0 +1,117 @@
+.cont-scope{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Agrega este estilo para centrar horizontalmente */
+    height: 100vh;
+    overflow: hidden;  
+}
+
+.scope {
+    position: relative;
+    
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: slid 30s linear infinite;
+    animation-play-state: running;
+  }
+  
+  .scope:hover {
+    animation-play-state: paused; /* Cuando el mouse está sobre el contenedor, pausa la animación */
+  }
+
+  .scope span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 60deg)) translateZ(207px);
+  }
+  .scope span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 2s;
+    transform: scale(1.2);
+  }
+
+
+  @keyframes slid {
+    0% {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateY(360deg);
+    }
+  }
+
+  .column-f strong{
+    background: #00ECFB;
+    background: -webkit-linear-gradient(to bottom, #00ECFB 0%, #008BD8 100%);
+    background: -moz-linear-gradient(to bottom, #00ECFB 0%, #008BD8 100%);
+    background: linear-gradient(to bottom, #00ECFB 0%, #008BD8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    }
+  
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    min-height: 100vh;
+  }
+
+  .section-3{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #fff;
+    background: rgba(19, 25, 73, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.section-3 .text p{
+    padding: 2em 5em 2em 5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #2196f3;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000000;
+}

@@ -32,7 +32,7 @@ const Accordion = () => {
                 ))}
             </div>
             <div className="image-container">
-                <img src="../../../../public/img/disenamos-a-tu-medida.png" alt="" />
+                <img src="../../../../public/img/Nosotros/disenamos-a-tu-medida.webp" alt="" />
             </div>
         </div>
     );

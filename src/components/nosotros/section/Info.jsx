@@ -16,12 +16,12 @@ const Info = () => {
                             </p>
                         </div>
                         <div className="imgInfo-1">
-                            <img src="../../../../public/img/cuenta-regresiva.png" alt="" />
+                            <img src="../../../../public/img/Nosotros/cuenta-regresiva.webp" alt="" />
                         </div>
                     </div>
                     <div className="section-2">
                         <div className="imgInfo-2">
-                            <img src="../../../../public/img/fondos.png" alt="" />
+                            <img src="../../../../public/img/Nosotros/fondos.webp" alt="" />
                         </div>
                         <div className="text">
                             <p>
@@ -36,12 +36,12 @@ const Info = () => {
                             </p>
                         </div>
                         <div className="imgInfo-1">
-                            <img src="../../../../public/img/bombilla.png" alt="" />
+                            <img src="../../../../public/img/Nosotros/bombilla.webp" alt="" />
                         </div>
                     </div>
                     <div className="section-2">
                         <div className="imgInfo-2">
-                            <img src="../../../../public/img/padre.png" alt="" />
+                            <img src="../../../../public/img/Nosotros/padre.webp" alt="" />
                         </div>
                         <div className="text">
                             <p>

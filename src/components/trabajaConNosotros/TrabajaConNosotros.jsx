@@ -1,8 +1,14 @@
-import React from 'react'
+import Acordion from './section/Acordion'
+import Card from './section/Workus'
+import Carousel from './section/WorkTogether'
 
 const TrabajaConNosotros = () => {
   return (
-    <div>TrabajaConNosotros</div>
+    <div>
+    <Carousel/>
+    <Acordion/>
+    <Card/>
+    </div>
   )
 }
 

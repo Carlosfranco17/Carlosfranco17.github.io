@@ -5,7 +5,7 @@ import './Cards.css'
 const EquipoCard = ({ name, role, experience, photo, url }) => (
     
     <div className="card" style={{ backgroundImage: `url(${photo})` }}>
-        <a href={url} target="_blank" rel={url ? "noopener noreferrer" : ""}>
+        <a href={url} target="_blank" rel= "noopener noreferrer">
             <div className="card--display">
                 <i className="material-icons">{role}</i>
                 <h2>{name}</h2>

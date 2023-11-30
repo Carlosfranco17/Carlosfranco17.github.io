@@ -20,7 +20,7 @@ section .column-c{
 .title{
     text-align: center;
     font-size: 40px;
-    background-image: linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(./img/disenamos-a-tu-medida.png);
+    background-image: linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(./../../../public/img/Nosotros/disenamos-a-tu-medida.webp);
     background-position: center;
     background-color: #394de1;
     color: #fff;
