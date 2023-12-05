@@ -1,4 +1,4 @@
-import './Acordion.css';
+
 import Team from '../info/Team.json';
 
 const Carousel = () => {

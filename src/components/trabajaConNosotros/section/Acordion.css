@@ -31,7 +31,7 @@
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 60deg)) translateZ(207px);
+    transform: rotateY(calc(var(--i) * 60deg)) translateZ(259px);
   }
   .scope span img {
     position: absolute;
@@ -41,7 +41,7 @@
     height: 100%;
     object-fit: cover;
     transition: 2s;
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 
 
@@ -114,4 +114,55 @@ a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000000;
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+.scope span{
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(173px);
+}
+
+  .scope span img {
+    transform: scale(1);
+  }
+
+  .section-3 .text p {
+    padding: 1em;
+  }
+
+  .column-f strong{
+    font-size: 36px;
+  }
+  
+}
+
+
+
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (min-width: 601px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .scope {
+    width: 200px;
+    height: 200px;
+  }
+
+  .scope span img {
+    transform: scale(1.5);
+  }
+
+  .section-3 .text p {
+    padding: 2em 5em 2em 5em;
+  }
+
+  .column-f title{
+    font-size: inherit;
+  }
 }

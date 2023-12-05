@@ -18,7 +18,7 @@ const Carousel = () => {
                 <div >
                     <div>
                             <span>
-                                <img src={'../../../../public/img/TrabajaConNosotros/work-together.2ad39c2a.svg'} alt="not found" />
+                                <img src={'../../../../public/img/TrabajaConNosotros/work-together.2ad39c2a.svg'} alt="not found"  style={{ width: '100%', height: 'auto' }}/>
                             </span>
                     </div>
                 </div>
