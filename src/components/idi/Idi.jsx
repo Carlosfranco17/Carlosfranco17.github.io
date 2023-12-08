@@ -40,23 +40,23 @@ const Idi = () => {
 
                     <div className="indicador">
                         <p><span>Artículos publicados</span>24</p>
-                        <div className="progress" style={{ "--width": "100%" }}></div>
+                        <div className="progress" style={{"--wth": "100%" }}></div>
                     </div>
                     <div className="indicador">
                         <p><span>Prototipos desarrollados</span>18</p>
-                        <div className="progress" style={{"--wth:62.2%"}}></div>
+                        <div className="progress" style={{"--wth": "62.2%"}}></div>
                     </div>
                     <div className="indicador">
                         <p><span>Convenios de cooperación</span>15</p>
-                        <div className="progress" style="--wth:62.5%"></div>
+                        <div className="progress" style={{"--wth": "100%"}}></div>
                     </div>
                     <div className="indicador">
                         <p><span>Investigadores categorizados en la empresa</span>5</p>
-                        <div className="progress" style="--wth:21%"></div>
+                        <div className="progress" style={{"--wth": "100%"}}></div>
                     </div>
                     <div className="indicador">
                         <p><span>Proyectos de I+D+i ejecutados con entes externos</span>9</p>
-                        <div className="progress" style="--wth:37.5%"></div>
+                        <div className="progress" style={{"--wth": "100%"}}></div>
                     </div>
 
                 </div>
