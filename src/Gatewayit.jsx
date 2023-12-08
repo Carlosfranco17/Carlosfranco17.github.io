@@ -7,7 +7,6 @@ import Idi from './components/idi/Idi'
 import Proyectos from './components/proyectos/Proyectos'
 import TrabajaConNosotros from './components/trabajaConNosotros/TrabajaConNosotros'
 import Navbar from './components/nav/Navbar'
-import Footer from './components/footer/Footer'
 
 const Gatewayit = () => {
   return (
@@ -29,8 +28,6 @@ const Gatewayit = () => {
 
       </Routes>
 
-
-<Footer/>
 
 
       

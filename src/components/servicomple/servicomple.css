@@ -1,0 +1,73 @@
+
+.container{
+    width: 100%;
+    background-color: rgba(42, 42, 236, 0.247);
+
+    border-radius: 4%;
+    padding: 50px 0 50px 0;
+}
+
+.car{
+    display: flex;
+
+    padding: 1% 3% 1% 3%;
+}
+
+.formu1{
+    order:2;
+    width: 50%;
+}
+
+.formu2{
+    order:1;
+    width: 50%;
+}
+
+.gest1{
+
+    order:1;
+    width: 50%;
+
+}
+
+.gest2{
+
+    order:2;
+    width: 50%;
+
+}
+
+
+.text-secun{
+margin: 3% 0 2% 3%;
+font-size: 18px;
+
+}
+
+
+.car-body{
+    margin: 5%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .car{
+        display: block;
+    }
+
+    
+    
+  }
+  
+  /* Estilos para dispositivos móviles (ancho máximo de 480px) */
+  @media only screen and (max-width: 480px) {
+
+    .car{
+        display: block;
+    }
+   
+  }
