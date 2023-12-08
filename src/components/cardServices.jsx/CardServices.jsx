@@ -10,34 +10,40 @@ const CardServices = () => {
 
 
 
-<section className="info">
-  <img src="https://codetheweb.blog/assets/img/icon2.png"/>
-  <h1>Learn HTML &mdash; <a href="https://codetheweb.blog/" target="_blank">Code The Web</a></h1>
-</section>
+
 <section className="cards-wrapper">
   <div className="card-grid-space">
     <div className="num">01</div>
-    <a className="card" style={{ '--bg-img': `url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg')` }}>
+    <a className="card" style={{ '--bg-img': `url('https://wallpapers.com/images/hd/holographic-icons-on-project-management-5dxp2u1pp9hqpagn.jpg')` }}>
       <div>
-        <h1>HTML Syntax</h1>
-        <p>The syntax of a language is how it works. How to actually write it. Lea 
-          rn HTML syntax…</p>
-        <div className="date">6 Oct 2017</div>
+        <h1>Proyectos I+D+I</h1>
+       <ul>
+        <li>Formulacion</li>
+        <li>Gestion</li>
+        <li>Ejecucion</li>
+        <li>Alianzas</li>
+        <li>Capacitacion</li>
+       </ul>
         <div className="tags">
-          <div className="tag">HTML</div>
+          
         </div>
       </div>
     </a>
   </div>
   <div className="card-grid-space">
     <div className="num">02</div>
-    <a className="card" style={{ '--bg-img': `url('${encodeURIComponent('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')}')` }}>
+    <a className="card" style={{ '--bg-img': `url('https://politica3d.com.ar/wp-content/uploads/2019/02/Desarrollo-Tecnol%C3%B3gico.jpg')` }}>
     <div>
-        <h1>Basic types of HTML tags</h1>
-        <p>Learn about some of the most common HTML tags…</p>
-        <div className="date">9 Oct 2017</div>
+        <h1>Desarrollo Tecnológico (CDT)</h1>
+        <ul>
+        <li>Prototipado</li>
+        <li>Transformación digital</li>
+        <li>Tecnología 4iR Y 5iR</li>
+        <li>Maduración tecnológica</li>
+        <li>Otros</li>
+       </ul>
         <div className="tags">
-          <div className="tag">HTML</div>
+        
         </div>
       </div>
  </a>  
@@ -45,13 +51,54 @@ const CardServices = () => {
   </div>
   <div className="card-grid-space">
     <div className="num">03</div>
-    <a className="card" style={{ '--bg-img': `url('${encodeURIComponent('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')}')` }}>
+    <a className="card" style={{ '--bg-img': `url('https://www.vipnet360.com/wp-content/uploads/2011/03/plataforma-tecnologica-1200x720.jpg')` }}>
     <div>
-        <h1>Links, images and about file paths</h1>
-        <p>Learn how to use links and images along with file paths…</p>
-        <div className="date">14 Oct 2017</div>
+    <h1>Plataformas tecnológicas</h1>
+        <ul>
+        <li> Licencias de software propio</li>
+        <li> Licencias de software Comercial</li>
+        <li>Hardware para empresa</li>
+       
+       </ul>
         <div className="tags">
-          <div className="tag">HTML</div>
+         
+        </div>
+      </div>
+</a>
+
+  </div>
+  <div className="card-grid-space">
+    <div className="num">04</div>
+    <a className="card" style={{ '--bg-img': `url('https://www.vipnet360.com/wp-content/uploads/2011/03/plataforma-tecnologica-1200x720.jpg')` }}>
+    <div>
+    <h1>Outsourcing tecnológico</h1>
+        <ul>
+        <li>VPS: Alquiler de servidores virtuales</li>
+        <li>Servidores dedicados (nube)</li>
+        <li>Software</li>
+        <li>Soporte de plataformas y sistemas de información</li>
+       
+       </ul>
+        <div className="tags">
+       
+        </div>
+      </div>
+</a>
+
+  </div>
+  <div className="card-grid-space">
+    <div className="num">05</div>
+    <a className="card" style={{ '--bg-img': `url('https://mssolutions.com.co/wp-content/uploads/2019/03/plan-de-formacion-junior-min.jpg')` }}>
+    <div>
+        <h1>Capacitaciones y certificaciones</h1>
+        <ul>
+        <li>Sistema de CTI Colombia</li>
+        <li> Transformación digital</li>
+        <li>Cuarta y Quinta Revolución industrial</li>
+        <li>Otros</li>
+       
+       </ul>
+        <div className="tags">   
         </div>
       </div>
 </a>

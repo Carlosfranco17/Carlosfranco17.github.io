@@ -1,0 +1,93 @@
+
+.footer{
+
+    width: 100%;
+
+   
+    margin-top: 1%;
+    height: 350px;
+   background-image: url("/public/img/dark-blue-paint-strokes-1rsfpmx7gtht9j79.jpg");
+
+
+
+}
+
+.div-footer{
+    display: flex;
+    width: 100%;
+padding: 1%;
+
+    
+}
+
+.footer-about{
+    margin: 0.5%;
+    width: 50%;
+    padding: 1%;
+    
+}
+.nosotros-footer{
+    margin: 0.5%;
+    width: 12.5%;
+    padding: 1%;
+}
+.contacto-footer{
+    margin: 0.5%;
+    width: 15%;
+    padding: 1%;
+}
+.seguir-footer{
+    margin: 0.5%;
+    width: 10%;
+    padding: 1%;
+}
+
+.gate{
+    color: white;
+}
+
+.derechos{
+
+
+    margin: 3%  5%;
+    border-top: 1px solid rgb(255, 255, 255);
+
+    text-align: center;
+}
+
+.ul{
+    color: white;
+    list-style: none;
+}
+
+.fa-brands{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.redes{
+    display:flex;
+}
+
+.title-footer{
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+@media only screen and (max-width: 768px) {
+.div-footer{
+    display: block;
+}
+  }
+  
+  /* Estilos para dispositivos móviles (ancho máximo de 480px) */
+  @media only screen and (max-width: 480px) {
+
+
+
+    .div-footer{
+        display: block;
+    }
+   
+  }

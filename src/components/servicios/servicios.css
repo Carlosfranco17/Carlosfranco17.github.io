@@ -1,6 +1,13 @@
-/* Reset */
+Reset
 
-/* Slider */
+/* Slider 
+*/
+.servicios_one{
+
+  background-color: blue;
+}
+
+
 #slider{
   width:100%;
   height:500px;

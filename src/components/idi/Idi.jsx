@@ -3,7 +3,10 @@ import './idi.css'
 
 const Idi = () => {
   return (
-    <div>Idi</div>
+    <div>
+      Idi
+      
+      </div>
   )
 }
 

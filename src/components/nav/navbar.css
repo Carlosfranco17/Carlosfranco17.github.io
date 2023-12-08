@@ -25,6 +25,7 @@
 header{
     position: fixed;
     z-index: 5;
+    margin-top: -8%;
     width: 100%;
 }  
   
