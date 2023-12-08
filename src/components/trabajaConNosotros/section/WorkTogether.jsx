@@ -5,14 +5,14 @@ import Work from '../info/Work.json';
 const Carousel = () => {
     return (
         <div>
-            <div className='column-f title'>
+            <div className='column-f title-n'>
                 <strong>{Work.mensaje}</strong>
             </div>
             <div className='grid-container'>
-                <div className="section-3">
+                <div className="section-3-w">
                     <div className="text">
                         <p>{Work.descripcion}</p>
-                        <a href="#convocatoria" className='info-link' rel='noreferrer'>Mas información</a>
+                        <a href="#convocatoria" className='info-w' rel='noreferrer'>Mas información</a>
                     </div>
                 </div>
                 <div >

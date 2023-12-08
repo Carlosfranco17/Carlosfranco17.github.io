@@ -8,7 +8,7 @@ const Info2 = () => {
             <img src="../../../../public/img/Nosotros/Blue Porter's Five Forces Analysis Graph.webp" alt="Graph" />
             </div>
             <div className="column-f">
-                <div className="title">
+                <div className="title-n">
                     <strong>{policy.title}</strong>
                 </div>
                 <div className="section-3">

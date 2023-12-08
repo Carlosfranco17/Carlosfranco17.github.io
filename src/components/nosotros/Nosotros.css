@@ -9,15 +9,13 @@ body {
 }
 
 
-section {
-    position: relative;
-}
+
 section .column-c{
     background-color: #131949;
     padding: 10% 0px;
 }
 
-.title{
+.title-n{
     text-align: center;
     font-size: 40px;
     background-image: linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(./../../../public/img/Nosotros/disenamos-a-tu-medida.webp);
@@ -326,7 +324,7 @@ padding: 0 5%;
     }
 }
 
-/*cards*/
+/*cards
 
 @media (max-width: 768px) {
 
@@ -376,3 +374,4 @@ padding: 0 5%;
         width: calc(100% - 20px);
     }
 }
+*/

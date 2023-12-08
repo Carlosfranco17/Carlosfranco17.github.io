@@ -4,18 +4,18 @@ import './Cards.css'
 
 const EquipoCard = ({ name, role, experience, photo, url }) => (
     
-    <div className="card" style={{ backgroundImage: `url(${photo})` }}>
+    <div className="card-n" style={{ backgroundImage: `url(${photo})` }}>
         <a href={url} target="_blank" rel= "noopener noreferrer">
-            <div className="card--display">
+            <div className="card-n--display">
                 <i className="material-icons">{role}</i>
                 <h2>{name}</h2>
             </div>
-            <div className="card--hover">
+            <div className="card-n--hover">
                 <p>{experience}</p>
                 <p className="link">Mas información</p>
             </div>
         </a>
-        <div className="card--border"></div>
+        <div className="card-n--border"></div>
     </div>
 );
 
@@ -32,11 +32,11 @@ const EquipoComponent = () => {
 
     return (
     <div>
-        <div className="title">
+        <div className="title-n">
                 <strong>Nuestro equipo</strong>
             </div>
     <div className='container'>
-        <div className="card-container">
+        <div className="card-n-container">
             {teamMembers.map((member, index) => (
                 <EquipoCard key={index} {...member} />
             ))}
